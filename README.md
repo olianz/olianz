@@ -2,51 +2,68 @@
 
 # olianz
 
-### Open-Source Contributor | AI-Assisted Engineering | ZK Proof Testing
+### Open Source · AI-Assisted Engineering · Verifiable Computing
 
-Building reproducible open-source contributions through AI-assisted development, automated testing, and collaboration with maintainers.
+I'm a Saudi-based open-source contributor exploring **zero-knowledge proof systems**, **reliable verification**, and **defensive software testing**.
+
+I use AI development tools extensively, and I believe technical contributions should be judged by **clear evidence, reproducible tests, and maintainer review**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-olianz-181717?logo=github)](https://github.com/olianz)
-[![zkFOL](https://img.shields.io/badge/zkFOL-Upstream_contribution-2ea44f)](https://github.com/zkFOL/zkfol/commit/ba97ecd7cbd995bb8f78018c540ad9b5d7802288)
+[![zkFOL](https://img.shields.io/badge/zkFOL-Contributions-2ea44f)](https://github.com/zkFOL/zkfol/pulls?q=is%3Apr+author%3Aolianz)
+[![Verified CI](https://img.shields.io/badge/zkFOL_CI-179_Tests_Passed-208636?logo=githubactions)](https://github.com/olianz/zkfol/actions/runs/40248923293)
 
 </div>
 
-## About me
+---
 
-I'm an open-source contributor based in Saudi Arabia, interested in **zero-knowledge proof systems, defensive security testing, and AI-assisted software engineering**.
+## Featured work
 
-I focus on useful, verifiable work: studying existing implementations, proposing focused regression tests, validating changes through CI, and responding to maintainer feedback.
+### [zkFOL — Proof verification input hardening (PR #15)](https://github.com/zkFOL/zkfol/pull/15)
 
-**How I work:** I rely on AI coding tools for technical implementation, while prioritizing reproducibility, transparent validation, and responsible collaboration.
+Improved defensive validation at the Elixir–Rust verification boundary:
 
-## Selected contributions
+- Reject inconsistent public-column dimensions, out-of-range references, and malformed constraint programs.
+- Handle malformed proof decoding as a controlled error.
+- Preserve existing verification behavior and regression coverage.
+- **Validation:** [175 Elixir tests + 4 Rust tests passed](https://github.com/olianz/zkfol/actions/runs/40248923293).
 
-| Project | Work | Verified status |
-| --- | --- | --- |
-| [zkFOL](https://github.com/zkFOL/zkfol) | [Regression tests for limb tampering, 8-bit overflow, and padded-row integrity](https://github.com/zkFOL/zkfol/pull/6) | Incorporated upstream by the maintainer in [commit `ba97ecd`](https://github.com/zkFOL/zkfol/commit/ba97ecd7cbd995bb8f78018c540ad9b5d7802288); PR closed without direct merge |
-| [zkFOL](https://github.com/zkFOL/zkfol) | [Standalone verifier test rejecting truncated exported proofs](https://github.com/zkFOL/zkfol/pull/8) | Submitted for review; [CI passed](https://github.com/olianz/zkfol/actions/runs/39581654876) |
+**Status:** Submitted for maintainer review. This is a robustness improvement, not a claim of an exploitable vulnerability.
 
-## Focus areas
+## Other contributions
 
-- Zero-knowledge proof systems and verifier correctness
-- Security regression testing
-- Reproducible tests and CI workflows
-- AI-assisted open-source contributions
-- Authorized, responsible blockchain security research
+| Contribution | Evidence |
+| --- | --- |
+| [zkFOL — limb tampering, overflow, and padding regression tests (PR #6)](https://github.com/zkFOL/zkfol/pull/6) | Maintainer [incorporated the work upstream](https://github.com/zkFOL/zkfol/commit/ba97ecd7cbd995bb8f78018c540ad9b5d7802288); PR closed without direct merge |
+| [zkFOL — standalone verifier corrupted-proof test (PR #8)](https://github.com/zkFOL/zkfol/pull/8) | [CI passed](https://github.com/olianz/zkfol/actions/runs/39581654876); under review |
+| [zkFOL — refusal mapping short-circuit test (PR #13)](https://github.com/zkFOL/zkfol/pull/13) | Submitted; verification and maintainer review pending |
+| [zkFOL — negative column-offset validation (PR #14)](https://github.com/zkFOL/zkfol/pull/14) | Submitted; verification and maintainer review pending |
 
-## Principles
+## How I work
 
-- **Evidence first:** reproduce and test before claiming a bug.
-- **Small, useful changes:** prioritize maintainable tests and fixes.
-- **Transparent collaboration:** describe AI assistance and verification accurately.
-- **Responsible security:** respect project security policies and disclosure processes.
+1. Study the existing implementation and its expected behavior.
+2. Make focused changes with a clear reason and scope.
+3. Add meaningful regression tests and run CI where available.
+4. Document what was actually tested and what still needs review.
+5. Respect project conventions, security policies, and maintainer feedback.
 
-## Open to collaboration
+**AI transparency:** AI tools assist significantly with my coding and research. I do not present unverified AI output as a tested result.
 
-Interested in **well-scoped open-source issues and funded development tasks** with clear acceptance criteria and transparent AI-use and payment policies.
+## Areas of interest
 
-[GitHub activity](https://github.com/olianz?tab=overview) · [zkFOL PR #6](https://github.com/zkFOL/zkfol/pull/6) · [zkFOL PR #8](https://github.com/zkFOL/zkfol/pull/8)
+- Zero-knowledge proofs and verifier correctness
+- Input validation and defensive regression tests
+- Rust–Elixir integration
+- Test automation and reproducible CI
+- Open-source collaboration and well-defined funded issues
 
 ---
 
-<sub>Project and pull-request statuses may change; follow the linked records for current details.</sub>
+<div align="center">
+
+**Open to well-scoped contributions and collaborations.**
+
+[GitHub activity](https://github.com/olianz?tab=overview) · [zkFOL pull requests](https://github.com/zkFOL/zkfol/pulls?q=is%3Apr+author%3Aolianz)
+
+<sub>For live PR and merge status, follow the linked GitHub records.</sub>
+
+</div>
