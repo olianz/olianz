@@ -2,7 +2,7 @@
 
 # olianz
 
-### Open Source · AI-Assisted Engineering · Verifiable Computing
+### Open Source · Software Engineering · Verifiable Computing
 
 I'm a Saudi-based open-source contributor exploring **zero-knowledge proof systems**, **reliable verification**, and **defensive software testing**.
 
